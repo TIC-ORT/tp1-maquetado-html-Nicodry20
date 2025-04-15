@@ -10,7 +10,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 100px;
 }
 .centro {
     width: 100%;
@@ -19,7 +19,12 @@
 .piso {
     width: 100%;
     height: 100px;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.48);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
 .cuadrado{
     height: 100px;
@@ -37,7 +42,7 @@ background-color: orange;
     height: 20px;
     background-color: orange;
 }
-.cosa{
+.columna{
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -78,7 +83,7 @@ background-color: orange;
     background-color: red;
 }
 .cuadrado3{
-    background-color: rgba(253, 253, 170, 0.74);
+    background-color: rgba(253, 253, 170, 0.842);
     height: 100px;
     width: 100px;
 }
@@ -98,6 +103,8 @@ background-color: orange;
     background-color: rgba(253, 253, 170, 0.74);
     height: 100px;
     width: 100px;
+    display: flex;
+    flex-direction: column;
 }
 .linear1{
     background-color: yellow;
@@ -123,4 +130,115 @@ background-color: orange;
     width: 100px;
     height: 14px;
     background-color: red;
+}
+.chico1{
+    background-color: rgb(167, 240, 240);
+    height: 50px;
+    width: 50px;
+}
+.chico2{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+.chico3{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+}
+.Chico1{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+}
+.Chico2{
+    background-color: rgb(167, 240, 240);
+    height: 50px;
+    width: 50px;
+}
+.Chico3{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+
+.cuadrado1, .cuadrado2, .cuadrado3,
+.cuadrador1, .cuadrador2, .cuadrador3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.chico1, .chico2, .chico3,
+.Chico1, .Chico2, .Chico3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.columna2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.linea-gris{
+    width: 100px;
+    height: 10px;
+    background-color: rgba(128, 128, 128, 0.643);
+}
+.linea-blanco2{
+    width: 100px;
+    height: 3px;
+    background-color: white;
+}
+.linea-blanco-mitad2{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+}
+.columna3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.linea-gris2{
+    width: 100px;
+    height: 10px;
+    background-color: rgba(128, 128, 128, 0.643);
+}
+.linea-blanco3{
+    width: 100px;
+    height: 3px;
+    background-color: white;
+}
+.linea-blanco-mitad3{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+}
+.columna4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.linea-gris3{
+    width: 100px;
+    height: 10px;
+    background-color: rgba(128, 128, 128, 0.643);
+}
+.linea-blanco4{
+    width: 100px;
+    height: 3px;
+    background-color: white;
+}
+.linea-blanco-mitad4{
+    width: 50px;
+    height: 3px;
+    background-color: white;
 }
