@@ -49,3 +49,78 @@ background-color: orange;
     height: 7px;
     background-color: white;
 }
+.row1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+.cuadrado1{
+    background-color: rgba(0, 255, 255, 0.233);
+    height: 100px;
+    width: 100px;
+}
+.linea1{
+    width: 100px;
+    height: 14px;
+    background-color: rgb(167, 240, 240);
+}
+.cuadrado2{
+    background-color: rgba(250, 94, 94, 0.87);
+    height: 100px;
+    width: 100px;
+}
+.linea2{
+    width: 100px;
+    height: 14px;
+    background-color: red;
+}
+.cuadrado3{
+    background-color: rgba(253, 253, 170, 0.74);
+    height: 100px;
+    width: 100px;
+}
+.linea3{
+    background-color: yellow;
+    height: 14px;
+    width: 100px;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.cuadrador1{
+    background-color: rgba(253, 253, 170, 0.74);
+    height: 100px;
+    width: 100px;
+}
+.linear1{
+    background-color: yellow;
+    height: 14px;
+    width: 100px;
+}
+.cuadrador2{
+    background-color: rgba(0, 255, 255, 0.233);
+    height: 100px;
+    width: 100px;
+}
+.linear2{
+    width: 100px;
+    height: 14px;
+    background-color: rgb(167, 240, 240);
+}
+.cuadrador3{
+    background-color: rgba(250, 94, 94, 0.87);
+    height: 100px;
+    width: 100px;
+}
+.linear3{
+    width: 100px;
+    height: 14px;
+    background-color: red;
+}
